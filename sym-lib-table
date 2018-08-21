@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name a500hdd)(type Legacy)(uri C:/prg/_git/a500hdd/a500hdd.lib)(options "")(descr ""))
+)
