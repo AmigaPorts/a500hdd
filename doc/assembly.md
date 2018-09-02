@@ -30,15 +30,42 @@
 - Dremel or other cutting tool if you're using ISA connector
 - Lots of patience
 
-## Soldering tips & tricks
+### Fitting LED
+
+When you're looking for a LED to buy, you need to know two parameters:
+
+- Forward voltage - must not be higher than 5V. Usually around 2V.
+- Forward current - max is usually around 20mA.
+
+You can find those parameters either on product page in online electronic
+components store, or in datasheet which should be linked on aforementioned page.
+When using datasheet, don't use values from Absolute Maximum Ratings, but range
+given by min-typ-max values.
+
+To pick proper resistor for LED, use online calculator (
+  [here](http://www.hebeiltd.com.cn/?p=zz.led.resistor.calculator) or
+  [here](http://ledcalc.com/) or somewhere else
+) or following formula:
+`R = (5-U)/I`, where U is forward voltage in volts, I is current in amps and
+the result is in ohms. You most likely won't find resistor with exact value you
+need, so use nearest higher one - this way there will be a bit less current
+flowing thorugh LED, making it a unnoticably dimmer. You can also reduce
+brightness of LED by intentionally using higher value of resistor, effectively
+limiting current.
+
+## Assembly tips & tricks
 
 If you're combining male/female goldpin connector from two or more parts, during
 soldering you can use spare corresponding connector to join two parts and ensure
-they are aligned correctly. You only need to join one row for that - removing it
-afterwards will be way easier.
+they are aligned correctly.
+You only need to join one row for that - removing it afterwards will be way
+easier.
+When joining female headers you will need to file them so that they fit
+perfectly.
+Work in small steps, often check if it already fits and take your time.
 
-When soldering SMD parts, use the thiniest solder as possible - I use 0.5mm.
-Here are some package-specific tricks:
+When soldering SMD parts, use the as thinest solder as possible - I use 0.5mm.
+Here are some component-specific tricks:
 
 - 0805 parts (resistors, capacitors, LEDs): First, apply a bit of solder on one
   of pads. Then, melt it again with your iron and use tweezers to insert one pad
