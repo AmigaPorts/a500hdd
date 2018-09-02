@@ -13,6 +13,12 @@ headers as their main connector.
 **NOTE:** it is strongly recommended to wait for another revision of the board
 since Rev2 has some minor, but annoying bugs.
 
+## Release structure
+
+Binary and gerber files are only packaged in releases.
+For gerbers see `board/gerber` directory.
+For device/software binaries see `software/bin` and `device/bin` directories.
+
 ## Documentation
 
 - [Assembly](doc/assembly.md)
