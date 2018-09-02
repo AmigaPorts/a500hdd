@@ -1,4 +1,4 @@
 CC = m68k-amigaos-gcc
 CC_FLAGS = -std=gnu11 -noixemul -Wall -Wextra -fomit-frame-pointer -Os
 
-: src/identify_drive.c |> ^ Building %f^ $(CC) $(CC_FLAGS) %f -o %o |> bin/%B.exe
+: src/identify_drive.c |> ^ Building %f^ $(CC) $(CC_FLAGS) %f -o %o |> bin/%B

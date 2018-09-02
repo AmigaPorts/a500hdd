@@ -10,9 +10,9 @@
 #include "ata.h"
 
 int main(int argc, char *argv[]) {
-	int i;
-	int time;
-	short buf[256];
+	int32_t i;
+	int32_t time;
+	int16_t buf[256];
 	FILE *outfile;
 
 	TF_DRIVE_HEAD = DRV0;
