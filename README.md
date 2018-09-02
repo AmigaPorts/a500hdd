@@ -1,5 +1,7 @@
 # Amiga 500 ATA hard disk interface
 
+![NIB image](https://raw.githubusercontent.com/AmigaPorts/a500hdd/master/doc/nib.jpg)
+
 Floppy-bootable HDD interface for Amiga 500. Achieves 600kB/s speed on
 unexpanded system. Works well with kickstart 1.3 and 2.0.
 
