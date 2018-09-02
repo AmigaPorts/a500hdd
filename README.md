@@ -1,6 +1,6 @@
 # Amiga 500 ATA hard disk interface
 
-Non-ROM-bootable HDD interface for Amiga 500. Achieves 600kB/s speed on
+Floppy-bootable HDD interface for Amiga 500. Achieves 600kB/s speed on
 unexpanded system. Works well with kickstart 1.3 and 2.0.
 
 Should you have two HDD expansions mounted for same address space, you can
