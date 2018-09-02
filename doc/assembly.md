@@ -133,3 +133,14 @@ onboard HDD controller.
 
 You can fix this either by modifying SD adapter or expansion itself, but I dunno
 how yet. ;)
+
+## Note on mounting female ATA44 female header
+
+ATA44 footprint is designed so that it accepts male header.
+If you want to mount female header so that you can plug IDE-SD adapter without
+ribbon cable, you must resolder pins on adapter itself. Not that such
+modification will render such adapter only compatible with this expansion.
+
+Before soldering anything look at adapter's and expansion board's ATA44 pin1
+(rectangular one) and notice how they should be mated so that those pins get
+connected.

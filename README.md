@@ -1,9 +1,11 @@
 # Amiga 500 ATA hard disk interface
 
 Non-ROM-bootable HDD interface for Amiga 500. Achieves 600kB/s speed on
-unexpanded system. Works well with kickstart 1.3 and 2.0. Should you have two
-HDD expansions mounted for same address space, you can invert master/slave
-select with a set of jumpers so that both can theoretically coexist.
+unexpanded system. Works well with kickstart 1.3 and 2.0.
+
+Should you have two HDD expansions mounted for same address space, you can
+invert master/slave select with a set of jumpers so that both can theoretically
+coexist.
 
 This board is bundled with side expansion adapter, which converts hard-to-get
 edge connector into common pin header. For user convenience and safety of
@@ -20,6 +22,8 @@ For gerbers see `board/gerber` directory.
 For device/software binaries see `software/bin` and `device/bin` directories.
 
 ## Documentation
+
+If you feel that anything here needs elaborating, feel free to submit an issue.
 
 - [Assembly](doc/assembly.md)
 - [Preparing boot floppy](doc/floppy.md)
