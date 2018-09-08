@@ -24,7 +24,7 @@
   - 1x: `74LS04`
   - 2x: `74LS08`
 - Capacitors:
-  - 3x: 100nF, 0805
+  - 4x: 100nF, 0805
 - Any 0805 LED of your choice - see "fitting LED"
 - set of files - medium to fine grit
 - Dremel or other cutting tool if you're using ISA connector
